@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker|Source+Sans+Pro&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	overflow: hidden;
+	color: #fff;
+	background: linear-gradient(#FF416C, #FF4B2B);
+}
+
+.landing{
+	display: flex;
+	justify-content: space-around;
+	height: 100vh;
+}
+
+.distortion{
+	cursor: pointer;
+	width: 1600px;
+	height: 920px;
+	
+}
+
+.intro{
+	align-self: center;
+	text-align: center;
+	width: 1700px;
+	padding: 20px;
+}
+
+.intro h2{
+	font-family: Blinker;
+	font-size: 80px;
+}
+
+.intro p{
+	font-family: Source Sans Pro;
+	font-size: 25px;
+}
